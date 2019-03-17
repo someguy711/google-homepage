@@ -1,0 +1,23 @@
+main{
+    position: relative;
+    top: 210px;
+}
+
+#logo {
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 30px;
+}
+
+main input {
+    display: block;
+    width: 45em;
+    height: 3em;
+    margin: 0 auto;
+    border:none;
+    border: solid 1px rgb(204, 202, 202);
+    border-radius: 2em;
+}
