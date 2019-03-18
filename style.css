@@ -1,33 +1,62 @@
 header {
     height: 30px;
-    /* border: red 1px solid; */
     position: absolute;
     width: 100%;
 }
 
-a {
+a.text {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.700);
     font-family: arial, sans-serif;
     font-size: .80em;
     font-weight: lighter;
 }
 
-a:hover {
+.top-left-nav a {
+    color: rgba(0, 0, 0, 0.700);
+}
+
+.top-right-nav a {
+    color: black;
+}
+
+a.text:hover {
     text-decoration: underline;
 }
 
-#top-left-nav {
-    align-content: bottom;
-    /* border: black 1px solid; */
-    display: inline;
+nav {
     position: absolute;
     bottom: 0;
-    left: 15px;
     word-spacing: 12px;
 }
 
-main{
+.top-left-nav {
+    left: 15px;
+}
+
+.top-right-nav {
+    right: 35px;
+}
+
+#apps-icon {
+    position: relative;
+    bottom: -3px;
+}
+
+#sign-in {
+    box-sizing: border-box;
+    word-spacing: 0;
+    border: 1px solid rgb(67, 135, 253);
+    background-color: rgb(67, 135, 253);
+    color: white;
+    text-decoration: none;
+    padding: .55em .85em;
+    font-size: .8em;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    border-radius: .15em;
+}
+
+main {
     position: relative;
     top: 210px;
 }
@@ -41,12 +70,14 @@ main{
     bottom: 30px;
 }
 
-main input {
+#searchbar {
+    box-sizing: border-box;
     display: block;
-    width: 45em;
-    height: 3em;
+    width: 42em;
+    height: 3.5em;
     margin: 0 auto;
     border:none;
     border: solid 1px rgb(204, 202, 202);
     border-radius: 2em;
+    padding-left: 1em;
 }
