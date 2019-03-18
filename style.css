@@ -73,11 +73,34 @@ main {
 #searchbar {
     box-sizing: border-box;
     display: block;
-    width: 42em;
+    width: 43em;
     height: 3.5em;
     margin: 0 auto;
-    border:none;
+    margin-bottom: 30px;
     border: solid 1px rgb(204, 202, 202);
     border-radius: 2em;
     padding-left: 1em;
+}
+
+.submit {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.submit input {
+    display: inline-block;
+    max-width: 150px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border: hidden;
+    padding: .75em 1.1em;
+    background-color: lightgray;
+    border-radius: .2em;
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+}
+
+.submit input:hover {
+    cursor: pointer;
+    border: 1px solid gray;
 }
