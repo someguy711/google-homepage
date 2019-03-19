@@ -1,3 +1,7 @@
+* {
+    margin-left: -1px;
+}
+
 header {
     height: 30px;
     position: absolute;
@@ -30,7 +34,7 @@ nav {
 }
 
 .top-left-nav {
-    left: 15px;
+    left: 35px;
 }
 
 .top-right-nav {
@@ -43,7 +47,6 @@ nav {
 }
 
 #sign-in {
-    box-sizing: border-box;
     word-spacing: 0;
     border: 1px solid rgb(67, 135, 253);
     background-color: rgb(67, 135, 253);
@@ -103,4 +106,30 @@ main {
 .submit input:hover {
     cursor: pointer;
     border: 1px solid gray;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    background-color: rgb(242, 242, 242);
+    word-spacing: 20px;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.600);
+    position: relative;
+    top: 12px;
+    font-family: arial, sans-serif;
+}
+
+.bottom-left {
+    left: 35px;
+}
+
+.bottom-right {
+    display: inline;
+    right: 15px;
+    top: 6px;
 }
